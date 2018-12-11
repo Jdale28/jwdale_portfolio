@@ -16,7 +16,7 @@ const Global = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'montserrat';
     /* font-family: 'Poppins', sans-serif; */
     /* background:  url(https://media.giphy.com/media/l3q2Cy90VMhfoA9BC/giphy.gif) no-repeat center center fixed;  */
   }
