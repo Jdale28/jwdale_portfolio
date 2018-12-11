@@ -3,25 +3,25 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 
-const ProjectOneContainer = styled.div`
+const ProjectTwoContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
   font-size: 2rem;
-  background-color: blue;
+  background-color: black;
   color: white;
 `;
 
-class ProjectOne extends Component {
+class ProjectTwo extends Component {
     render() {
         return (
-            <ProjectOneContainer>
-                Hello from Project One
-            </ProjectOneContainer>
+            <ProjectTwoContainer>
+                Hello from Project Two
+            </ProjectTwoContainer>
         );
     }
 }
 
-export default ProjectOne;
+export default ProjectTwo;

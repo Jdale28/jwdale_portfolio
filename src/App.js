@@ -4,6 +4,11 @@ import headshot from './Jordan_Final_Headshot.jpg';
 import './App.css';
 import { createGlobalStyle } from "styled-components";
 import NavBar from "./components/NavBar";
+import ProjectOne from './components/ProjectOne';
+import AboutMe from './components/AboutMe';
+import ProjectTwo from './components/ProjectTwo';
+import ProjectThree from './components/ProjectThree';
+import ProjectFour from './components/ProjectFour';
 
 const Global = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Poppins');
@@ -11,7 +16,8 @@ const Global = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'montserrat', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
   }
 `;
 
@@ -21,13 +27,18 @@ class App extends Component {
       <Router>
       <div className="App">
         <Global />
-        <NavBar />
         <header className="App-header">
           <img src={headshot} className="App-logo" alt="logo" />
           <p>
             Welcome to Jordan's Portfolio
           </p>
         </header>
+        <AboutMe />
+        <ProjectOne />
+        <ProjectTwo />
+        <ProjectThree />
+        <ProjectFour />
+        <NavBar />
       </div>
       </Router>
     );
