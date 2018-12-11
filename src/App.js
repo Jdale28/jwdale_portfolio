@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import headshot from './Jordan_Final_Headshot.jpg';
 import './App.css';
 import { createGlobalStyle } from "styled-components";
 import NavBar from "./components/NavBar";
@@ -9,6 +8,7 @@ import AboutMe from './components/AboutMe';
 import ProjectTwo from './components/ProjectTwo';
 import ProjectThree from './components/ProjectThree';
 import ProjectFour from './components/ProjectFour';
+import Intro from './components/Intro';
 
 const Global = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Poppins');
@@ -18,6 +18,7 @@ const Global = createGlobalStyle`
     padding: 0;
     font-family: 'montserrat', sans-serif;
     /* font-family: 'Poppins', sans-serif; */
+    /* background:  url(https://media.giphy.com/media/l3q2Cy90VMhfoA9BC/giphy.gif) no-repeat center center fixed;  */
   }
 `;
 
@@ -27,12 +28,7 @@ class App extends Component {
       <Router>
       <div className="App">
         <Global />
-        <header className="App-header">
-          <img src={headshot} className="App-logo" alt="logo" />
-          <p>
-            Welcome to Jordan's Portfolio
-          </p>
-        </header>
+        <Intro />
         <AboutMe />
         <ProjectOne />
         <ProjectTwo />
