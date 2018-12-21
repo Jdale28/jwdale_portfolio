@@ -57,7 +57,7 @@ class ProjectFour extends Component {
                 </p>
                 <p>
                     Feel free to check out our efforts here... <a href="https://jonny-on-it-collab.herokuapp.com/"> Jonny On It</a>
-                    <br />Please be patient as Heroku (our hosting service) loads! Link to GitHub to check out behind the signs: <a href="https://github.com/Jdale28/jonny_on_it_collab"> Inspire's Repository</a>
+                    <br />Please be patient as Heroku (our hosting service) loads! Link to GitHub to check out behind the scenes: <a href="https://github.com/Jdale28/jonny_on_it_collab"> Jonny On It's Repository</a>
                 </p>
                 <p>
                     Technologies: React, Axios, React-Geosuggest, React-Strap, Material-UI, Django, Serializer, Rest-framework, Python

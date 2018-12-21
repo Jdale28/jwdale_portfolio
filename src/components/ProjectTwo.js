@@ -56,7 +56,7 @@ class ProjectTwo extends Component {
                 </p>
                 <p>
                     Feel free to browse Inspire and maybe even find some inspiration at <a href="https://salty-anchorage-65493.herokuapp.com/"> Inspire</a>
-                    <br />Please be patient as Heroku (our hosting service) loads! Link to GitHub to check out behind the signs: <a href="https://github.com/Jdale28/inspire-project-2"> Inspire's Repository</a>
+                    <br />Please be patient as Heroku (our hosting service) loads! Link to GitHub to check out behind the scenes: <a href="https://github.com/Jdale28/inspire-project-2"> Inspire's Repository</a>
                 </p>
                 <p>
                     Technologies: HTML5, CSS3, Javascript, jQuery, Nodejs, Express, Bootstrap & Modals, Handlebars
