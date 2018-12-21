@@ -9,8 +9,8 @@ const ProjectTwoContainer = styled.div`
   width: 100%;
   height: 100vh;
   font-size: 2rem;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   background-image: url("https://i.imgur.com/dgWfxpC.png");
   background-size: 50%;
   background-repeat: no-repeat;

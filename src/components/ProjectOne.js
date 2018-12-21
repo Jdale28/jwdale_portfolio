@@ -10,8 +10,8 @@ const ProjectOneContainer = styled.div`
   width: 100%;
   height: 100vh;
   font-size: 2rem;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   background-image: url("https://i.imgur.com/6iPJosz.png");
   background-size: 50%;
   background-repeat: no-repeat;
