@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import pdf from '../files/Jordan Dale-Resume.pdf';
 
 const ContactContainer = styled.div`
   display: flex;
@@ -41,11 +42,10 @@ const ContactContainer = styled.div`
         font-size: 1rem;
       }
     }
-  }
-  .methodBox {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
+    a {
+      text-decoration: none;
+      color: black;
+    }
   }
   .imageBox {
     width: 40%;
@@ -69,7 +69,6 @@ class ContactInfo extends Component {
               </p>
               <p>Get in touch!</p>
             </div>
-            {/* <div className="methodBox"> */}
             <div className="contactMethod">
               <img
                 src="https://i.imgur.com/gaJHfgd.png"
@@ -104,14 +103,11 @@ class ContactInfo extends Component {
                 width="36"
                 height="36"
               />{" "}
-              View Resume
+              <a href={pdf}>Click for my Resume</a>
             </div>
           </div>
         </div>
-        {/* </div> */}
-        <div className="imageBox">
-        </div>
-        
+        <div className="imageBox" />
       </ContactContainer>
     );
   }
