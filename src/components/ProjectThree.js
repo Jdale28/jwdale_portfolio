@@ -48,7 +48,7 @@ class ProjectThree extends Component {
     return (
       <ProjectThreeContainer>
         <DescriptionFlex>
-          <h3 className="header">Project Three - Outperform</h3>
+          <h3 className="header">Outperform</h3>
           <h6 className="header">Performance Review Manager</h6>
           <p>
             For our third project  we were tasked with incorporating React into whatever type of app we wanted. I chose to do a business-related app which would attempt to improve the manager-employee performance review process.
@@ -60,12 +60,12 @@ class ProjectThree extends Component {
             Given this was our first foray into React, there is a lot that I wanted to incorporate but simply didn't have time for. In future versions, I'd like to incorporate Mail Chimp (or similar service) to send alerts when employers submit reviews, as well as authentication and login.
           </p>
           <p>
-            Feel free to check out the game here...{" "}
+            Feel free to check out Outperform here...
             <a href="https://jwdale-project3.herokuapp.com/"> Outperform</a>
             <br />
-            Link to GitHub to check out behind the scenes:{" "}
+            Link to GitHub to check out behind the scenes:
             <a href="https://github.com/Jdale28/WDI-project3">
-              {" "}
+              
               Outperform's Repository
             </a>
           </p>

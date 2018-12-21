@@ -44,7 +44,7 @@ class ProjectFour extends Component {
             <ProjectFourContainer>
                 <DescriptionFlex>
                 <h3>
-                    Project Four - Jonny On It collaborative
+                    Jonny On It collaborative
                 </h3>
                 <p>
                     For this project we collaborated with General Assembly's User Experience Immersive to create a full stack application for a client, Jonny On It. 
@@ -53,7 +53,7 @@ class ProjectFour extends Component {
                     Jonny On It connects homeowners and realtors with service providers in real-time, with options to either schedule services in the future, or have a provider sent to their home within minutes.
                 </p>
                 <p>
-                    We had approximately 5 days to create this working prototype... a deadline that was challenging, but really made us utilize each others strengths to achieve a common objective.
+                    We had approximately 5 days to create this working prototype... a deadline that was challenging, but really made us utilize each other's strengths to achieve a common objective.
                 </p>
                 <p>
                     Feel free to check out our efforts here... <a href="https://jonny-on-it-collab.herokuapp.com/"> Jonny On It</a>

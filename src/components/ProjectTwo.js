@@ -43,13 +43,13 @@ class ProjectTwo extends Component {
             <ProjectTwoContainer>
                 <DescriptionFlex>
                 <h3>
-                    Project Two - Inspire
+                    Inspire
                 </h3>
                 <p>
                     For our second project we were tasked with creating an app that would attempt to make the world just a little bit better. As an avid reader, I find motivation constantly in the form of quotes and sayings, so I decided to build a web app around them.
                 </p>
                 <p>
-                    Inspire is designed to allow a user to click on a particular mood or feeling and a quote populates designed to resonate with that individual, and maybe even cheer them or get them out whatever funk they're in.
+                    Inspire is designed to allow a user to click on a particular mood or feeling and a quote populates designed to resonate with that individual, and maybe even cheer them up or get them out of whatever funk they're in.
                 </p>
                 <p>
                     In future versions, I aim to tie in an API to provide significantly more quotes for users to choose from; users will be able to save their favorite quotes, and even send them to each other.

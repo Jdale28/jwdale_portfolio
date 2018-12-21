@@ -43,7 +43,7 @@ class ProjectOne extends Component {
             <ProjectOneContainer>
                 <DescriptionFlex>
                 <h3>
-                    Project One - Connect Four
+                    Connect Four
                 </h3>
                 <p>
                     For our first project I was presented with four choices of games to create: Jeopardy, Hang Man, Simon, and Connect Four. Connect Four was described as the most challenging, so I selected it in order to challenge myself. 
