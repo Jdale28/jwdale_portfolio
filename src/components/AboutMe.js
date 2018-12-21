@@ -32,30 +32,31 @@ const AboutFlex = styled.div`
   h1 {
     margin-bottom: 2vh;
   }
-`
+`;
 
 class AboutMe extends Component {
   render() {
     return (
       <AboutMeContainer>
         <div className="selfie" />
-        <AboutFlex><h1>About Me</h1>
-        <p>I'm a full stack web developer based in Atlanta</p>
-        <p>
-        I dive into each project with a voracious desire to understand and
-        solve each hurdle that arises. I pair that desire with a creative eye
-        that constantly asks how to make a design more intuitive and the user
-        experience more gratifying.
-        </p>
-        <p>
-        With a background as a financial advisor, I bring an empathetic,
-        trustworthy demeanor to team environments that’s coupled with the
-        data-driven, analytical mind of solo projects.
-        </p>
-        <p>
-        An eye for design and detail. Eager to grow, learn, and constantly
-        refining techniques and adding more to my repertoire.
-        </p></AboutFlex>
+        <AboutFlex>
+          <h1>About Me</h1>
+          <p>I'm a full stack web developer based in Atlanta.</p>
+          <p>
+            I recently finished 500+ hours of intense, deadline-driven training
+            through General Assembly's Web Developer Immersive course.
+          </p>
+          <p>
+            With a background as a financial advisor, I bring an empathetic,
+            trustworthy demeanor to team environments that’s coupled with the
+            data-driven, analytical mind of solo projects.
+          </p>
+          <p>An eye for design and detail.</p>
+          <p>
+            Eager to grow, learn, and constantly refining techniques and adding
+            more to my repertoire.
+          </p>
+        </AboutFlex>
       </AboutMeContainer>
     );
   }
