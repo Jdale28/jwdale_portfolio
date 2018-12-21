@@ -12,7 +12,7 @@ const ProjectOneContainer = styled.div`
   font-size: 2rem;
   background-color: white;
   color: black;
-  background-image: url("https://i.imgur.com/0P7ik23.jpg");
+  background-image: url("https://i.imgur.com/6iPJosz.png");
   background-size: 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -24,7 +24,10 @@ class ProjectOne extends Component {
     render() {
         return (
             <ProjectOneContainer>
-                Hello from Project One
+                <p>
+                    Feel free to browse Inspire and maybe even find some inspiration at <a href="https://salty-anchorage-65493.herokuapp.com/"> Inspire</a>
+                    <br />Please be patient as Heroku (our hosting service) loads! Link to GitHub to check out behind the signs: <a href="https://github.com/Jdale28/inspire-project-2"> Inspire's Repository</a>
+                </p>
             </ProjectOneContainer>
         );
     }

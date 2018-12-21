@@ -11,7 +11,7 @@ const ProjectFourContainer = styled.div`
   font-size: 2rem;
   background-color: black;
   color: white;
-  background-image: url("https://i.imgur.com/dgWfxpC.png");
+  background-image: url("https://i.imgur.com/0qjzdH8.png");
   background-size: 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
