@@ -9,7 +9,7 @@ const IntroContainer = styled.div`
   width: 100%;
   height: 100vh;
   font-size: 2rem;
-  background: url(https://media.giphy.com/media/OK5LK5zLFfdm/giphy.gif)
+  background: url("https://media.giphy.com/media/OK5LK5zLFfdm/giphy.gif")
     no-repeat center center;
   background-size: 100%;
   opacity: 0.8;

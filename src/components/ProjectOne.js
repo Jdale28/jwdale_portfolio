@@ -10,8 +10,14 @@ const ProjectOneContainer = styled.div`
   width: 100%;
   height: 100vh;
   font-size: 2rem;
-  background-color: blue;
-  color: white;
+  background-color: white;
+  color: black;
+  background-image: url("https://i.imgur.com/0P7ik23.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 95%;
+  background-position-y: 50%;
 `;
 
 class ProjectOne extends Component {

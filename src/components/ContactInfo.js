@@ -72,7 +72,7 @@ class ContactInfo extends Component {
             {/* <div className="methodBox"> */}
             <div className="contactMethod">
               <img
-                src="https://image.freepik.com/free-icon/map-marker_318-49860.jpg"
+                src="https://i.imgur.com/gaJHfgd.png"
                 alt="Map Pin"
                 width="32"
                 height="32"
@@ -81,7 +81,7 @@ class ContactInfo extends Component {
             </div>
             <div className="contactMethod">
               <img
-                src="https://image.flaticon.com/icons/svg/0/191.svg"
+                src="https://i.imgur.com/FcrG2zS.png"
                 alt="Cell Phone"
                 width="32"
                 height="32"
@@ -90,7 +90,7 @@ class ContactInfo extends Component {
             </div>
             <div className="contactMethod">
               <img
-                src="https://img.icons8.com/metro/1600/email.png"
+                src="https://i.imgur.com/yb0rxae.png"
                 alt="Email Icon"
                 width="32"
                 height="32"
@@ -99,7 +99,7 @@ class ContactInfo extends Component {
             </div>
             <div className="contactMethod">
               <img
-                src="https://visualpharm.com/assets/888/Resume-595b40b85ba036ed117dc3ee.svg"
+                src="https://i.imgur.com/dnBlexF.png"
                 alt="Resume Icon"
                 width="36"
                 height="36"
