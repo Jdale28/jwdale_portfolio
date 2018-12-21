@@ -43,20 +43,23 @@ class ProjectTwo extends Component {
             <ProjectTwoContainer>
                 <DescriptionFlex>
                 <h3>
-                    Project Four - Jonny On It collaborative
+                    Project Two - Inspire
                 </h3>
                 <p>
-                    For this project we collaborated with General Assembly's User Experience Immersive to create a full stack application for a client, Jonny On It. 
+                    For our second project we were tasked with creating an app that would attempt to make the world just a little bit better. As an avid reader, I find motivation constantly in the form of quotes and sayings, so I decided to build a web app around them.
                 </p>
                 <p>
-                    Jonny On It connects homeowners and realtors with service providers in real-time, with options to either schedule services in the future, or have a provider sent to their home within minutes.
+                    Inspire is designed to allow a user to click on a particular mood or feeling and a quote populates designed to resonate with that individual, and maybe even cheer them or get them out whatever funk they're in.
                 </p>
                 <p>
-                    We had approximately 5 days to create this working prototype... a deadline that was challenging, but really made us utilize each others strengths to achieve a common objective.
+                    In future versions, I aim to tie in an API to provide significantly more quotes for users to choose from; users will be able to save their favorite quotes, and even send them to each other.
                 </p>
                 <p>
-                    Feel free to check out our efforts here... <a href="https://jonny-on-it-collab.herokuapp.com/"> Jonny On It</a>
-                    <br />Please be patient as Heroku (our hosting service) loads!
+                    Feel free to browse Inspire and maybe even find some inspiration at <a href="https://salty-anchorage-65493.herokuapp.com/"> Inspire</a>
+                    <br />Please be patient as Heroku (our hosting service) loads! Link to GitHub to check out behind the signs: <a href="https://github.com/Jdale28/inspire-project-2"> Inspire's Repository</a>
+                </p>
+                <p>
+                    Technologies: HTML5, CSS3, Javascript, jQuery, Nodejs, Express, Bootstrap & Modals, Handlebars
                 </p>
                 </DescriptionFlex>
             </ProjectTwoContainer>
