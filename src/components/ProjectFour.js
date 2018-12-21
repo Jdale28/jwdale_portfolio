@@ -5,7 +5,6 @@ import styled from "styled-components";
 
 const ProjectFourContainer = styled.div`
   display: flex;
-  /* justify-content: space-evenly; */
   align-items: center;
   width: 100%;
   height: 100vh;
@@ -28,9 +27,7 @@ const DescriptionFlex = styled.div`
     justify-content: center;
     align-content: center;
     width: 50vw;
-    /* border: 1px solid white; */
     p {
-        /* border: 1px solid white; */
         font-size: 16px;
         width: 40vw;
         margin: 1vh 0;

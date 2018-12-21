@@ -5,7 +5,6 @@ import styled from "styled-components";
 
 const ProjectTwoContainer = styled.div`
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
@@ -19,12 +18,47 @@ const ProjectTwoContainer = styled.div`
   background-position-x: 95%;
   background-position-y: 50%;
 `;
+const DescriptionFlex = styled.div`
+    margin-left: 5vw;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50vw;
+    p {
+        font-size: 16px;
+        width: 40vw;
+        margin: 1vh 0;
+        a {
+            text-decoration: none;
+            color: rgb(13, 151, 255);
+        }
+    }
+`
 
 class ProjectTwo extends Component {
     render() {
         return (
             <ProjectTwoContainer>
-                Hello from Project Two
+                <DescriptionFlex>
+                <h3>
+                    Project Four - Jonny On It collaborative
+                </h3>
+                <p>
+                    For this project we collaborated with General Assembly's User Experience Immersive to create a full stack application for a client, Jonny On It. 
+                </p>
+                <p>
+                    Jonny On It connects homeowners and realtors with service providers in real-time, with options to either schedule services in the future, or have a provider sent to their home within minutes.
+                </p>
+                <p>
+                    We had approximately 5 days to create this working prototype... a deadline that was challenging, but really made us utilize each others strengths to achieve a common objective.
+                </p>
+                <p>
+                    Feel free to check out our efforts here... <a href="https://jonny-on-it-collab.herokuapp.com/"> Jonny On It</a>
+                    <br />Please be patient as Heroku (our hosting service) loads!
+                </p>
+                </DescriptionFlex>
             </ProjectTwoContainer>
         );
     }
