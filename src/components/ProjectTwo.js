@@ -40,6 +40,31 @@ const DescriptionFlex = styled.div`
   }
 `;
 
+const Button = styled.button`
+  font-size: 14px;
+  width: 6vw;
+  height: 3vh;
+  border-radius: 9px;
+  border: rgba(14, 151, 255, 1) solid 1px;
+  font-weight: bold;
+  background-color: rgba(14, 151, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  :hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(14, 151, 255, 1);
+  }
+  a {
+    text-decoration: none;
+  }
+`;
+
+const ButtonFlex = styled.div`
+  display: flex;
+  width: 15vw;
+  margin-top: 5vh;
+  justify-content: space-evenly;
+`
+
 class ProjectTwo extends Component {
   render() {
     return (
@@ -48,37 +73,25 @@ class ProjectTwo extends Component {
           <h3>Inspire</h3>
           <h6>Cheer yourself up with inspirational quotes</h6>
           <p>
-            For our second project we were tasked with creating an app that
-            would attempt to make the world just a little bit better. As an avid
-            reader, I find motivation constantly in the form of quotes and
-            sayings, so I decided to build a web app around them.
+            Challenged to make the world a better place.
           </p>
-          <p>
-            Inspire is designed to allow a user to click on a particular mood or
-            feeling and a quote populates designed to resonate with that
-            individual, and maybe even cheer them up or get them out of whatever
-            funk they're in.
-          </p>
-          <p>
-            In future versions, I aim to tie in an API to provide significantly
-            more quotes for users to choose from; users will be able to save
-            their favorite quotes, and even send them to each other.
-          </p>
-          <p>
-            Feel free to browse Inspire and maybe even find some inspiration at{" "}
-            <a href="https://salty-anchorage-65493.herokuapp.com/"> Inspire</a>
-            <br />
-            Please be patient as Heroku (our hosting service) loads! Link to
-            GitHub to check out behind the scenes:{" "}
-            <a href="https://github.com/Jdale28/inspire-project-2">
-              {" "}
-              Inspire's Repository
-            </a>
-          </p>
+          <p>With Inspire you select a mood and a quote populates that resonates with your mood... and hopefully inspires you.</p>
           <p>
             Technologies: HTML5, CSS3, Javascript, jQuery, Nodejs, Express,
             Bootstrap & Modals, Handlebars
           </p>
+          
+          <ButtonFlex>
+            <Button>
+              <Link to="https://salty-anchorage-65493.herokuapp.com/">
+                Live Site
+              </Link>
+            </Button>
+            <Button>
+              <Link to="https://github.com/Jdale28/inspire-project-2">GitHub</Link>
+            </Button>
+          </ButtonFlex>
+          
         </DescriptionFlex>
       </ProjectTwoContainer>
     );
