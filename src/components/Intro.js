@@ -12,7 +12,7 @@ const IntroContainer = styled.div`
   background: url("https://media.giphy.com/media/OK5LK5zLFfdm/giphy.gif")
     no-repeat center center;
   background-size: 100%;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   background-position: absolute;
   color: white;
   p {

@@ -8,7 +8,7 @@ const ProjectOneContainer = styled.div`
   width: 100%;
   height: 100vh;
   font-size: 2rem;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   background-image: url("https://i.imgur.com/6iPJosz.png");
   background-size: 50%;
@@ -48,7 +48,8 @@ class ProjectOne extends Component {
         <DescriptionFlex>
           <h3>Connect Four</h3>
           <h6>Same game you love, new themes</h6>
-          <p>
+          <p>Given choices of Jeopardy, Hang Man, Simon and Connect Four, I selected Connect Four to push myself. The logic certainly was tough to conquer, but I was pleased with what I learned and the final result.</p>
+          {/* <p>
             For our first project I was presented with four choices of games to
             create: Jeopardy, Hang Man, Simon, and Connect Four. Connect Four
             was described as the most challenging, so I selected it in order to
@@ -64,7 +65,7 @@ class ProjectOne extends Component {
             I was pleased to create a working game, and even added some flair in
             the form of themes, and have plans for future iterations to create a
             defensive AI, and potentially even a 3-player mode.
-          </p>
+          </p> */}
           <p>
             Feel free to check out the game here...{" "}
             <a href="https://lucid-sammet-b3bfd5.netlify.com/">
