@@ -47,6 +47,7 @@ class NavBar extends Component {
             <a href="https://github.com/Jdale28">GitHub</a>
             <a href="https://www.linkedin.com/in/jordan-w-dale/">LinkedIn</a>
           </div>
+          
         </NavBarStyles>
       </div>
     );

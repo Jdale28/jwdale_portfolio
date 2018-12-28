@@ -9,6 +9,9 @@ import ProjectTwo from './components/ProjectTwo';
 import ProjectThree from './components/ProjectThree';
 import ProjectFour from './components/ProjectFour';
 import Intro from './components/Intro';
+import ScrollableAnchor, { goToTop, goToAnchor} from 'react-scrollable-anchor'
+
+
 
 const Global = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Poppins');
@@ -24,17 +27,27 @@ const Global = createGlobalStyle`
 
 class App extends Component {
   render() {
+    goToAnchor()
     return (
       <Router>
       <div className="App">
         <Global />
-        <Intro />
+        <a href='#section1'> Go to section 1 </a>
+        <a href='#section2'> Go to section 2 </a>
+        <Intro/>
+
+        <ScrollableAnchor id={'section1'}>
         <AboutMe />
+        </ScrollableAnchor>
+
+        <ScrollableAnchor id={'section2'}>
         <ProjectOne />
+        </ScrollableAnchor>
+        
         <ProjectTwo />
         <ProjectThree />
         <ProjectFour />
-        <NavBar />
+        <NavBar/>
       </div>
       </Router>
     );
