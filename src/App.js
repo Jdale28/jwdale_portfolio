@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import './App.css';
 import { createGlobalStyle } from "styled-components";
 import ProjectOne from './components/ProjectOne';
@@ -8,7 +8,7 @@ import ProjectTwo from './components/ProjectTwo';
 import ProjectThree from './components/ProjectThree';
 import ProjectFour from './components/ProjectFour';
 import Intro from './components/Intro';
-import ScrollableAnchor, { goToTop, goToAnchor} from 'react-scrollable-anchor'
+import ScrollableAnchor, { goToAnchor} from 'react-scrollable-anchor'
 import styled from "styled-components";
 import ContactInfo from './components/ContactInfo';
 
