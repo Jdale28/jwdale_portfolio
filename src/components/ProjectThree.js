@@ -25,7 +25,8 @@ const DescriptionFlex = styled.div`
   justify-content: center;
   align-content: center;
   width: 50vw;
-  h3, h6 {
+  h3,
+  h6 {
     margin: 0;
     margin-bottom: 1vh;
   }
@@ -40,6 +41,31 @@ const DescriptionFlex = styled.div`
   }
 `;
 
+const Button = styled.button`
+  font-size: 14px;
+  width: 6vw;
+  height: 3vh;
+  border-radius: 9px;
+  border: rgba(14, 151, 255, 1) solid 1px;
+  font-weight: bold;
+  background-color: rgba(14, 151, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  :hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(14, 151, 255, 1);
+  }
+  a {
+    text-decoration: none;
+  }
+`;
+
+const ButtonFlex = styled.div`
+  display: flex;
+  width: 15vw;
+  margin-top: 5vh;
+  justify-content: space-evenly;
+`;
+
 class ProjectThree extends Component {
   render() {
     return (
@@ -48,28 +74,27 @@ class ProjectThree extends Component {
           <h3>Outperform</h3>
           <h6>Employee performance review manager</h6>
           <p>
-            For our third project  we were tasked with incorporating React into whatever type of app we wanted. I chose to do a business-related app which would attempt to improve the manager-employee performance review process.
-          </p>
-          <p>
-            Typically, those reviews are done at the last minute. With Outperform, the goal would be to allow managers to add employee responsibilities periodically and check in more frequently than once or twice a year.
-          </p>
-          <p>
-            Given this was our first foray into React, there is a lot that I wanted to incorporate but simply didn't have time for. In future versions, I'd like to incorporate Mail Chimp (or similar service) to send alerts when employers submit reviews, as well as authentication and login.
-          </p>
-          <p>
-            Feel free to check out Outperform here...
-            <a href="https://jwdale-project3.herokuapp.com/"> Outperform</a>
-            <br />
-            Link to GitHub to check out behind the scenes:
-            <a href="https://github.com/Jdale28/WDI-project3">
-              
-              Outperform's Repository
-            </a>
+            Performance reviews are tedious, streamline the process with
+            Outperform through effective organization and alerts
           </p>
           <p>
             Technologies: HTML5, CSS3, Javascript, Nodejs, Express, React,
             Bootstrap & Modals
           </p>
+
+          <ButtonFlex>
+            <Button>
+              <Link to="https://jwdale-project3.herokuapp.com/">
+                Live Site
+              </Link>
+            </Button>
+            <Button>
+              <Link to="https://github.com/Jdale28/WDI-project3">
+                GitHub
+              </Link>
+            </Button>
+          </ButtonFlex>
+          
         </DescriptionFlex>
       </ProjectThreeContainer>
     );
