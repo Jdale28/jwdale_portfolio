@@ -8,7 +8,7 @@ const ContactContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   font-size: 2rem;
   background-color: white;
   color: white;
@@ -49,9 +49,9 @@ const ContactContainer = styled.div`
   }
   .imageBox {
     width: 40%;
-    height: 100%;
+    height: 95vh;
     background-image: url(http://science.sciencemag.org/content/sci/358/6363/605.1/F1.large.jpg?width=800&height=600&carousel=1);
-    background-size: 100%;
+    background-size: 105%;
   }
 `;
 
