@@ -27,8 +27,11 @@ const ContactContainer = styled.div`
       width: 70%;
       .contactMethod {
         font-family: "calibri";
-        font-size: 0.75rem;
+        font-size: 1.25rem;
         margin-top: 3vh;
+        img {
+          margin-right: 1vw;
+        }
       }
       h1 {
         font-family: Helvetica, sans-serif;

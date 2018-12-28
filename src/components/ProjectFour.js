@@ -84,14 +84,11 @@ class ProjectFour extends Component {
 
           <ButtonFlex>
             <Button>
-              <Link to="https://jonny-on-it-collab.herokuapp.com/">
-                Website
-              </Link>
+                <a href="https://jonny-on-it-collab.herokuapp.com/">
+                Website</a>
             </Button>
             <Button>
-              <Link to="https://github.com/Jdale28/jonny_on_it_collab">
-                GitHub
-              </Link>
+            <a href="https://github.com/Jdale28/jonny_on_it_collab">GitHub</a>
             </Button>
           </ButtonFlex>
         </DescriptionFlex>

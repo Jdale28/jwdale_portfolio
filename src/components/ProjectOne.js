@@ -64,8 +64,7 @@ const ButtonFlex = styled.div`
   width: 15vw;
   margin-top: 5vh;
   justify-content: space-evenly;
-`
-
+`;
 
 class ProjectOne extends Component {
   render() {
@@ -83,12 +82,10 @@ class ProjectOne extends Component {
           <p>Technologies: HTML, CSS, JavaScript</p>
           <ButtonFlex>
             <Button>
-              <Link to="https://lucid-sammet-b3bfd5.netlify.com/">
-                Live Site
-              </Link>
+              <a href="https://lucid-sammet-b3bfd5.netlify.com/">Website</a>
             </Button>
             <Button>
-              <Link to="https://github.com/Jdale28/connectFour">GitHub</Link>
+              <a href="https://github.com/Jdale28/connectFour">GitHub</a>
             </Button>
           </ButtonFlex>
         </DescriptionFlex>

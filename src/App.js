@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import './App.css';
 import { createGlobalStyle } from "styled-components";
-import NavBar from "./components/NavBar";
 import ProjectOne from './components/ProjectOne';
 import AboutMe from './components/AboutMe';
 import ProjectTwo from './components/ProjectTwo';
@@ -11,6 +10,7 @@ import ProjectFour from './components/ProjectFour';
 import Intro from './components/Intro';
 import ScrollableAnchor, { goToTop, goToAnchor} from 'react-scrollable-anchor'
 import styled from "styled-components";
+import ContactInfo from './components/ContactInfo';
 
 
 
@@ -90,7 +90,7 @@ class App extends Component {
         <ProjectTwo />
         <ProjectThree />
         <ProjectFour />
-        <NavBar/>
+        <ContactInfo />
       </div>
       </Router>
     );

@@ -84,17 +84,12 @@ class ProjectThree extends Component {
 
           <ButtonFlex>
             <Button>
-              <Link to="https://jwdale-project3.herokuapp.com/">
-                Live Site
-              </Link>
+              <a href="https://jwdale-project3.herokuapp.com/">Website</a>
             </Button>
             <Button>
-              <Link to="https://github.com/Jdale28/WDI-project3">
-                GitHub
-              </Link>
+              <a href="https://github.com/Jdale28/WDI-project3">GitHub</a>
             </Button>
           </ButtonFlex>
-          
         </DescriptionFlex>
       </ProjectThreeContainer>
     );

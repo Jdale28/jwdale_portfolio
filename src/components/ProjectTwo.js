@@ -25,7 +25,8 @@ const DescriptionFlex = styled.div`
   justify-content: center;
   align-content: center;
   width: 50vw;
-  h3, h6 {
+  h3,
+  h6 {
     margin: 0;
     margin-bottom: 1vh;
   }
@@ -63,7 +64,7 @@ const ButtonFlex = styled.div`
   width: 15vw;
   margin-top: 5vh;
   justify-content: space-evenly;
-`
+`;
 
 class ProjectTwo extends Component {
   render() {
@@ -72,26 +73,24 @@ class ProjectTwo extends Component {
         <DescriptionFlex>
           <h3>Inspire</h3>
           <h6>Cheer yourself up with inspirational quotes</h6>
+          <p>Challenged to make the world a better place.</p>
           <p>
-            Challenged to make the world a better place.
+            With Inspire you select a mood and a quote populates that resonates
+            with your mood... and hopefully inspires you.
           </p>
-          <p>With Inspire you select a mood and a quote populates that resonates with your mood... and hopefully inspires you.</p>
           <p>
             Technologies: HTML5, CSS3, Javascript, jQuery, Nodejs, Express,
             Bootstrap & Modals, Handlebars
           </p>
-          
+
           <ButtonFlex>
             <Button>
-              <Link to="https://salty-anchorage-65493.herokuapp.com/">
-                Live Site
-              </Link>
+              <a href="https://salty-anchorage-65493.herokuapp.com/">Website</a>
             </Button>
             <Button>
-              <Link to="https://github.com/Jdale28/inspire-project-2">GitHub</Link>
+              <a href="https://github.com/Jdale28/inspire-project-2">GitHub</a>
             </Button>
           </ButtonFlex>
-          
         </DescriptionFlex>
       </ProjectTwoContainer>
     );
