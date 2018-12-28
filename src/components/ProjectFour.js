@@ -41,6 +41,30 @@ const DescriptionFlex = styled.div`
     }
   }
 `;
+const Button = styled.button`
+  font-size: 14px;
+  width: 6vw;
+  height: 3vh;
+  border-radius: 9px;
+  border: rgba(14, 151, 255, 1) solid 1px;
+  font-weight: bold;
+  background-color: rgba(14, 151, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  :hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(14, 151, 255, 1);
+  }
+  a {
+    text-decoration: none;
+  }
+`;
+
+const ButtonFlex = styled.div`
+  display: flex;
+  width: 15vw;
+  margin-top: 5vh;
+  justify-content: space-evenly;
+`;
 
 class ProjectFour extends Component {
   render() {
@@ -50,35 +74,26 @@ class ProjectFour extends Component {
           <h3>Jonny On It</h3>
           <h6>Find the home service you need in a flash</h6>
           <p>
-            For this project we collaborated with General Assembly's User
-            Experience Immersive to create a full stack application for a
-            client, Jonny On It.
-          </p>
-          <p>
-            Jonny On It connects homeowners and realtors with service providers
-            in real-time, with options to either schedule services in the
-            future, or have a provider sent to their home within minutes.
-          </p>
-          <p>
-            We had approximately 5 days to create this working prototype... a
-            deadline that was challenging, but really made us utilize each
-            other's strengths to achieve a common objective.
-          </p>
-          <p>
-            Feel free to check out our efforts here...{" "}
-            <a href="https://jonny-on-it-collab.herokuapp.com/"> Jonny On It</a>
-            <br />
-            Please be patient as Heroku (our hosting service) loads! Link to
-            GitHub to check out behind the scenes:{" "}
-            <a href="https://github.com/Jdale28/jonny_on_it_collab">
-              {" "}
-              Jonny On It's Repository
-            </a>
+            Collaboration effort with User Experience students for our client
+            Christian Ries, CEO of Jonny On It.
           </p>
           <p>
             Technologies: React, Axios, React-Geosuggest, React-Strap,
             Material-UI, Django, Serializer, Rest-framework, Python
           </p>
+
+          <ButtonFlex>
+            <Button>
+              <Link to="https://jonny-on-it-collab.herokuapp.com/">
+                Website
+              </Link>
+            </Button>
+            <Button>
+              <Link to="https://github.com/Jdale28/jonny_on_it_collab">
+                GitHub
+              </Link>
+            </Button>
+          </ButtonFlex>
         </DescriptionFlex>
       </ProjectFourContainer>
     );
