@@ -25,11 +25,8 @@ const DescriptionFlex = styled.div`
   justify-content: center;
   align-content: center;
   width: 50vw;
-  h3,
-  h6 {
+  h3, h6 {
     margin: 0;
-  }
-  h6 {
     margin-bottom: 1vh;
   }
   p {
@@ -48,8 +45,8 @@ class ProjectThree extends Component {
     return (
       <ProjectThreeContainer>
         <DescriptionFlex>
-          <h3 className="header">Outperform</h3>
-          <h6 className="header">Performance Review Manager</h6>
+          <h3>Outperform</h3>
+          <h6>Employee performance review manager</h6>
           <p>
             For our third project  we were tasked with incorporating React into whatever type of app we wanted. I chose to do a business-related app which would attempt to improve the manager-employee performance review process.
           </p>
