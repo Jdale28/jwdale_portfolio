@@ -41,6 +41,32 @@ const DescriptionFlex = styled.div`
   }
 `;
 
+const Button = styled.button`
+  font-size: 14px;
+  width: 6vw;
+  height: 3vh;
+  border-radius: 9px;
+  border: rgba(14, 151, 255, 1) solid 1px;
+  font-weight: bold;
+  background-color: rgba(14, 151, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  :hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(14, 151, 255, 1);
+  }
+  a {
+    text-decoration: none;
+  }
+`;
+
+const ButtonFlex = styled.div`
+  display: flex;
+  width: 15vw;
+  margin-top: 5vh;
+  justify-content: space-evenly;
+`
+
+
 class ProjectOne extends Component {
   render() {
     return (
@@ -48,38 +74,23 @@ class ProjectOne extends Component {
         <DescriptionFlex>
           <h3>Connect Four</h3>
           <h6>Same game you love, new themes</h6>
-          <p>Given choices of Jeopardy, Hang Man, Simon and Connect Four, I selected Connect Four to push myself. The logic certainly was tough to conquer, but I was pleased with what I learned and the final result.</p>
-          {/* <p>
-            For our first project I was presented with four choices of games to
-            create: Jeopardy, Hang Man, Simon, and Connect Four. Connect Four
-            was described as the most challenging, so I selected it in order to
-            challenge myself.
-          </p>
           <p>
-            In the beginning I definitely struggled on this project. It was
-            challenging to work out the logic of winning, how to create a game
-            design that linked up with your logic, and most of all... following
-            the principles of clean, DRY (Dont Repeat Yourself) code.
-          </p>
-          <p>
-            I was pleased to create a working game, and even added some flair in
-            the form of themes, and have plans for future iterations to create a
-            defensive AI, and potentially even a 3-player mode.
-          </p> */}
-          <p>
-            Feel free to check out the game here...{" "}
-            <a href="https://lucid-sammet-b3bfd5.netlify.com/">
-              {" "}
-              Jordan's Connect Four
-            </a>
-            <br />
-            Link to GitHub to check out behind the scenes:{" "}
-            <a href="https://github.com/Jdale28/connectFour">
-              {" "}
-              Connect Four's Repository
-            </a>
+            Given choices of Jeopardy, Hang Man, Simon and Connect Four, I
+            selected Connect Four to push myself. The logic certainly was tough
+            to conquer, but I was pleased with what I learned and the final
+            result.
           </p>
           <p>Technologies: HTML, CSS, JavaScript</p>
+          <ButtonFlex>
+            <Button>
+              <Link to="https://lucid-sammet-b3bfd5.netlify.com/">
+                Live Site
+              </Link>
+            </Button>
+            <Button>
+              <Link to="https://github.com/Jdale28/connectFour">GitHub</Link>
+            </Button>
+          </ButtonFlex>
         </DescriptionFlex>
       </ProjectOneContainer>
     );

@@ -67,7 +67,7 @@ class App extends Component {
         <Global />
         <NavBarStyles>
           <div className="left">
-          <a href='#top'> Top </a>
+          <a href='#sectionTop'> Top </a>
           <a href='#projects'> Projects </a>
           </div>
           <div className="right">
@@ -76,7 +76,7 @@ class App extends Component {
           </div>
           
         </NavBarStyles>
-        <ScrollableAnchor id={'top'}>
+        <ScrollableAnchor id={'sectionTop'}>
         <Intro/>
         </ScrollableAnchor>
         
