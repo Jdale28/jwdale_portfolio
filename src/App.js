@@ -69,6 +69,7 @@ class App extends Component {
           <div className="left">
           <a href='#sectionTop'> Top </a>
           <a href='#projects'> Projects </a>
+          <a href='#contact'> Contact </a>
           </div>
           <div className="right">
             <a href="https://github.com/Jdale28">GitHub</a>
@@ -90,7 +91,11 @@ class App extends Component {
         <ProjectTwo />
         <ProjectThree />
         <ProjectFour />
+
+        <ScrollableAnchor id={'contact'}>
         <ContactInfo />
+        </ScrollableAnchor>
+
       </div>
       </Router>
     );
