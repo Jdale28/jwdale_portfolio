@@ -53,12 +53,13 @@ const DescriptionFlex = styled.div`
       text-align: center;
       width: 90vw;
     }
-    img {
-      display: block;
-      width: 400px;
-      height: auto;
-      margin: -50px;
-      padding-left: 20px;
+    .projectImg {
+      img {
+        display: inline-block;
+        width: 375px;
+        height: auto;
+        margin: -40px;
+      }
     }
     h3 {
       margin-top: 2vh;
@@ -105,7 +106,9 @@ class ProjectFour extends Component {
       <ProjectFourContainer>
         <DescriptionFlex>
           <h3>Jonny On It</h3>
+          <div className="projectImg">
           <img src="https://i.imgur.com/0qjzdH8.png" alt="Jonny On It" />
+          </div>
           <h6>Find the home service you need in a flash</h6>
           <p>
             Collaboration effort with User Experience students for our client

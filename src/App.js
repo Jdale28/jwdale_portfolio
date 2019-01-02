@@ -23,7 +23,6 @@ const Global = createGlobalStyle`
 `;
 
 const NavBarStyles = styled.div`
-  /* opacity: 0.8; */
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -49,16 +48,13 @@ const NavBarStyles = styled.div`
   }
   .right {
     margin-right: 2vw;
-    width: 25vw;
+    width: 40vw;
     display: flex;
     justify-content: space-around;
   }
   @media screen and (max-width: 820px) {
     font-size: 1rem;
     width: 100%;
-    .right {
-      padding-right: 8vw;
-    }
   } 
 `;
 
