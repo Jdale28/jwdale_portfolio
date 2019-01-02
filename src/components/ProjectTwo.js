@@ -15,6 +15,10 @@ const ProjectTwoContainer = styled.div`
   background-attachment: fixed;
   background-position-x: 95%;
   background-position-y: 50%;
+  @media screen and (max-width: 820px) {
+    background-image: none;
+    height: 75vh;
+  }
 `;
 const DescriptionFlex = styled.div`
   margin-left: 5vw;
@@ -37,6 +41,26 @@ const DescriptionFlex = styled.div`
       text-decoration: none;
       color: rgb(13, 151, 255);
     }
+    img {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 820px) {
+    width: 90vw;
+    text-align: center;
+    p {
+      text-align: center;
+      width: 90vw;
+    }
+    img {
+      display: inline-block;
+      width: 375px;
+      height: auto;
+      margin: -40px;
+    }
+    h3 {
+      margin-top: 5vh;
+    }
   }
 `;
 
@@ -56,6 +80,11 @@ const Button = styled.button`
   a {
     text-decoration: none;
   }
+  @media screen and (max-width: 820px) {
+    width: 25vw;
+    text-align: center;
+    border: 1px solid black;
+  }
 `;
 
 const ButtonFlex = styled.div`
@@ -63,6 +92,10 @@ const ButtonFlex = styled.div`
   width: 15vw;
   margin-top: 5vh;
   justify-content: space-evenly;
+  @media screen and (max-width: 820px) {
+    width: 90vw;
+    text-align: center;
+  }
 `;
 
 class ProjectTwo extends Component {
@@ -71,6 +104,9 @@ class ProjectTwo extends Component {
       <ProjectTwoContainer>
         <DescriptionFlex>
           <h3>Inspire</h3>
+          <div className="projectImg">
+            <img src="https://i.imgur.com/dgWfxpC.png" alt="Inspire" />
+          </div>
           <h6>Cheer yourself up with inspirational quotes</h6>
           <p>Challenged to make the world a better place.</p>
           <p>
