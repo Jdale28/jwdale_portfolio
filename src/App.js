@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import './App.css';
+import "./App.css";
 import { createGlobalStyle } from "styled-components";
-import ProjectOne from './components/ProjectOne';
-import AboutMe from './components/AboutMe';
-import ProjectTwo from './components/ProjectTwo';
-import ProjectThree from './components/ProjectThree';
-import ProjectFour from './components/ProjectFour';
-import Intro from './components/Intro';
-import ScrollableAnchor, { goToAnchor} from 'react-scrollable-anchor'
+import ProjectOne from "./components/ProjectOne";
+import AboutMe from "./components/AboutMe";
+import ProjectTwo from "./components/ProjectTwo";
+import ProjectThree from "./components/ProjectThree";
+import ProjectFour from "./components/ProjectFour";
+import Intro from "./components/Intro";
+import ScrollableAnchor, { goToAnchor } from "react-scrollable-anchor";
 import styled from "styled-components";
-import ContactInfo from './components/ContactInfo';
-
-
+import ContactInfo from "./components/ContactInfo";
 
 const Global = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Poppins');
@@ -34,7 +32,7 @@ const NavBarStyles = styled.div`
   height: 6vh;
   font-size: 2rem;
   background-color: grey;
-  font-family: 'montserat';
+  font-family: "montserat";
   text-transform: uppercase;
   a {
     text-decoration: none;
@@ -55,48 +53,51 @@ const NavBarStyles = styled.div`
     display: flex;
     justify-content: space-around;
   }
+  @media screen and (max-width: 820px) {
+    font-size: 1rem;
+    width: 100%;
+    .right {
+      padding-right: 8vw;
+    }
+  } 
 `;
-
 
 class App extends Component {
   render() {
-    goToAnchor()
+    goToAnchor();
     return (
       <Router>
-      <div className="App">
-        <Global />
-        <NavBarStyles>
-          <div className="left">
-          <a href='#sectionTop'> Top </a>
-          <a href='#projects'> Projects </a>
-          <a href='#contact'> Contact </a>
-          </div>
-          <div className="right">
-            <a href="https://github.com/Jdale28">GitHub</a>
-            <a href="https://www.linkedin.com/in/jordan-w-dale/">LinkedIn</a>
-          </div>
-          
-        </NavBarStyles>
-        <ScrollableAnchor id={'sectionTop'}>
-        <Intro/>
-        </ScrollableAnchor>
-        
+        <div className="App">
+          <Global />
+          <NavBarStyles>
+            <div className="left">
+              <a href="#sectionTop"> Top </a>
+              <a href="#projects"> Projects </a>
+              <a href="#contact"> Contact </a>
+            </div>
+            <div className="right">
+              <a href="https://github.com/Jdale28">GitHub</a>
+              <a href="https://www.linkedin.com/in/jordan-w-dale/">LinkedIn</a>
+            </div>
+          </NavBarStyles>
+          <ScrollableAnchor id={"sectionTop"}>
+            <Intro />
+          </ScrollableAnchor>
 
-        <AboutMe />
+          <AboutMe />
 
-        <ScrollableAnchor id={'projects'}>
-        <ProjectOne />
-        </ScrollableAnchor>
-        
-        <ProjectTwo />
-        <ProjectThree />
-        <ProjectFour />
+          <ScrollableAnchor id={"projects"}>
+            <ProjectFour />
+          </ScrollableAnchor>
 
-        <ScrollableAnchor id={'contact'}>
-        <ContactInfo />
-        </ScrollableAnchor>
+          <ProjectTwo />
+          <ProjectThree />
+          <ProjectOne />
 
-      </div>
+          <ScrollableAnchor id={"contact"}>
+            <ContactInfo />
+          </ScrollableAnchor>
+        </div>
       </Router>
     );
   }

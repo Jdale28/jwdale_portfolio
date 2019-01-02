@@ -63,6 +63,10 @@ const IntroContainer = styled.div`
       transform: translateY(20px);
     }
   }
+  @media screen and (max-width: 820px) {
+    height: 46vh;
+    font-size: 1.5rem;
+  }
 `;
 
 class Intro extends Component {
