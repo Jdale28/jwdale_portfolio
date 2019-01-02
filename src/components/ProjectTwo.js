@@ -41,10 +41,10 @@ const DescriptionFlex = styled.div`
       text-decoration: none;
       color: rgb(13, 151, 255);
     }
-    img {
+  }
+  img {
       display: none;
     }
-  }
   @media screen and (max-width: 820px) {
     width: 90vw;
     text-align: center;
