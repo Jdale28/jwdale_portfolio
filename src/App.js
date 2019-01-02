@@ -71,7 +71,7 @@ class App extends Component {
           <Global />
           <NavBarStyles>
             <div className="left">
-              <a href="#sectionTop"> Top </a>
+              <a href="#sectTop"> Top </a>
               <a href="#projects"> Projects </a>
               <a href="#contact"> Contact </a>
             </div>
@@ -80,7 +80,7 @@ class App extends Component {
               <a href="https://www.linkedin.com/in/jordan-w-dale/">LinkedIn</a>
             </div>
           </NavBarStyles>
-          <ScrollableAnchor id={"sectionTop"}>
+          <ScrollableAnchor id={"sectTop"}>
             <Intro />
           </ScrollableAnchor>
 

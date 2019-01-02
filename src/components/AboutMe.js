@@ -19,7 +19,17 @@ const AboutMeContainer = styled.div`
     background-size: 100%;
     background-repeat: no-repeat;
   }
+  @media screen and (max-width: 820px) {
+    height: 65vh;
+    /* border: 1px solid black; */
+    
+    .selfie {
+      display: none;
+    }
+    
+  }
 `;
+
 const AboutFlex = styled.div`
   display: flex;
   flex-direction: column;
@@ -31,6 +41,29 @@ const AboutFlex = styled.div`
   h1 {
     margin-bottom: 2vh;
   }
+  @media screen and (max-width: 820px) {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 90vw;
+    text-align: center;
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 14px;
+    }
+    .selfieTwo {
+      margin-left: 20vw;
+      height: 20vh;
+      width: 50vw;
+      border: 1px solid black;
+      background-image: url("https://i.imgur.com/d9fquU0.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
 `;
 
 class AboutMe extends Component {
@@ -40,6 +73,7 @@ class AboutMe extends Component {
         <div className="selfie" />
         <AboutFlex>
           <h1>About Me</h1>
+          <div className="selfieTwo" />
           <p>I'm a full stack web developer based in Atlanta.</p>
           <p>
             I recently finished 500+ hours of intense, deadline-driven training
