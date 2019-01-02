@@ -15,6 +15,10 @@ const ProjectFourContainer = styled.div`
   background-attachment: fixed;
   background-position-x: 95%;
   background-position-y: 50%;
+  @media screen and (max-width: 820px) {
+    background-image: none;
+    height: 75vh;
+  }
 `;
 
 const DescriptionFlex = styled.div`
@@ -39,6 +43,27 @@ const DescriptionFlex = styled.div`
       color: rgb(13, 151, 255);
     }
   }
+  img {
+    display: none;
+  }
+  @media screen and (max-width: 820px) {
+    width: 90vw;
+    text-align: center;
+    p {
+      text-align: center;
+      width: 90vw;
+    }
+    img {
+      display: block;
+      width: 400px;
+      height: auto;
+      margin: -50px;
+      padding-left: 20px;
+    }
+    h3 {
+      margin-top: 2vh;
+    }
+  }
 `;
 const Button = styled.button`
   font-size: 14px;
@@ -56,6 +81,11 @@ const Button = styled.button`
   a {
     text-decoration: none;
   }
+  @media screen and (max-width: 820px) {
+    width: 25vw;
+    text-align: center;
+    border: 1px solid white;
+  }
 `;
 
 const ButtonFlex = styled.div`
@@ -63,6 +93,10 @@ const ButtonFlex = styled.div`
   width: 15vw;
   margin-top: 5vh;
   justify-content: space-evenly;
+  @media screen and (max-width: 820px) {
+    width: 90vw;
+    text-align: center;
+  }
 `;
 
 class ProjectFour extends Component {
@@ -71,6 +105,7 @@ class ProjectFour extends Component {
       <ProjectFourContainer>
         <DescriptionFlex>
           <h3>Jonny On It</h3>
+          <img src="https://i.imgur.com/0qjzdH8.png" alt="Jonny On It" />
           <h6>Find the home service you need in a flash</h6>
           <p>
             Collaboration effort with User Experience students for our client
@@ -83,11 +118,10 @@ class ProjectFour extends Component {
 
           <ButtonFlex>
             <Button>
-                <a href="https://jonny-on-it-collab.herokuapp.com/">
-                Website</a>
+              <a href="https://jonny-on-it-collab.herokuapp.com/">Website</a>
             </Button>
             <Button>
-            <a href="https://github.com/Jdale28/jonny_on_it_collab">GitHub</a>
+              <a href="https://github.com/Jdale28/jonny_on_it_collab">GitHub</a>
             </Button>
           </ButtonFlex>
         </DescriptionFlex>

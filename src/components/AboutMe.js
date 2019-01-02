@@ -14,14 +14,12 @@ const AboutMeContainer = styled.div`
   .selfie {
     height: 39vh;
     width: 22vw;
-    border: 1px solid black;
     background-image: url("https://i.imgur.com/d9fquU0.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
   @media screen and (max-width: 820px) {
     height: 65vh;
-    /* border: 1px solid black; */
     
     .selfie {
       display: none;
@@ -42,7 +40,6 @@ const AboutFlex = styled.div`
     margin-bottom: 2vh;
   }
   @media screen and (max-width: 820px) {
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-content: center;
@@ -58,7 +55,6 @@ const AboutFlex = styled.div`
       margin-left: 20vw;
       height: 20vh;
       width: 50vw;
-      border: 1px solid black;
       background-image: url("https://i.imgur.com/d9fquU0.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
