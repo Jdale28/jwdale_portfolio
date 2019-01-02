@@ -15,6 +15,10 @@ const ProjectThreeContainer = styled.div`
   background-attachment: fixed;
   background-position-x: 95%;
   background-position-y: 50%;
+  @media screen and (max-width: 820px) {
+    background-image: none;
+    height: 75vh;
+  }
 `;
 const DescriptionFlex = styled.div`
   margin-left: 5vw;
@@ -38,6 +42,28 @@ const DescriptionFlex = styled.div`
       color: rgb(13, 151, 255);
     }
   }
+  img {
+    display: none;
+  }
+  @media screen and (max-width: 820px) {
+    width: 90vw;
+    text-align: center;
+    p {
+      text-align: center;
+      width: 90vw;
+    }
+    .projectImg {
+      img {
+        display: inline-block;
+        width: 375px;
+        height: auto;
+        margin: -40px;
+      }
+    }
+    h3 {
+      margin-top: 2vh;
+    }
+  }
 `;
 
 const Button = styled.button`
@@ -56,6 +82,11 @@ const Button = styled.button`
   a {
     text-decoration: none;
   }
+  @media screen and (max-width: 820px) {
+    width: 25vw;
+    text-align: center;
+    border: 1px solid white;
+  }
 `;
 
 const ButtonFlex = styled.div`
@@ -63,6 +94,10 @@ const ButtonFlex = styled.div`
   width: 15vw;
   margin-top: 5vh;
   justify-content: space-evenly;
+  @media screen and (max-width: 820px) {
+    width: 90vw;
+    text-align: center;
+  }
 `;
 
 class ProjectThree extends Component {
@@ -71,6 +106,9 @@ class ProjectThree extends Component {
       <ProjectThreeContainer>
         <DescriptionFlex>
           <h3>Outperform</h3>
+          <div className="projectImg">
+          <img src="https://i.imgur.com/5p14agU.png" alt="Jonny On It" />
+          </div>
           <h6>Employee performance review manager</h6>
           <p>
             Performance reviews are tedious, streamline the process with
