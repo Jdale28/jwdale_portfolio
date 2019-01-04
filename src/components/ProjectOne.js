@@ -19,6 +19,9 @@ const ProjectOneContainer = styled.div`
     background-image: none;
     height: 75vh;
   }
+  @media screen and (max-width: 820px) {
+    height: 85vh;
+  }
 `;
 const DescriptionFlex = styled.div`
   margin-left: 5vw;
@@ -41,6 +44,9 @@ const DescriptionFlex = styled.div`
       text-decoration: none;
       color: rgb(13, 151, 255);
     }
+  }
+  img {
+    display: none;
   }
   @media screen and (max-width: 820px) {
     width: 90vw;

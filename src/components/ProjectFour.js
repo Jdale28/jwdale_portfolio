@@ -17,7 +17,9 @@ const ProjectFourContainer = styled.div`
   background-position-y: 50%;
   @media screen and (max-width: 820px) {
     background-image: none;
-    height: 75vh;
+  }
+  @media screen and (max-width: 820px) {
+    height: 90vh;
   }
 `;
 

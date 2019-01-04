@@ -33,6 +33,7 @@ const NavBarStyles = styled.div`
   background-color: grey;
   font-family: "montserat";
   text-transform: uppercase;
+  z-index: 2;
   a {
     text-decoration: none;
     padding-left: 2vw;

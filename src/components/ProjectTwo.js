@@ -19,6 +19,9 @@ const ProjectTwoContainer = styled.div`
     background-image: none;
     height: 75vh;
   }
+  @media screen and (max-width: 820px) {
+    height: 85vh;
+  }
 `;
 const DescriptionFlex = styled.div`
   margin-left: 5vw;

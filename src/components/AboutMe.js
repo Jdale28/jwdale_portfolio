@@ -20,11 +20,12 @@ const AboutMeContainer = styled.div`
   }
   @media screen and (max-width: 820px) {
     height: 65vh;
-    
     .selfie {
       display: none;
     }
-    
+  }
+  @media screen and (max-width: 820px) {
+    height: 85vh;
   }
 `;
 
@@ -59,6 +60,11 @@ const AboutFlex = styled.div`
       background-size: 100%;
       background-repeat: no-repeat;
     }
+  }
+  @media screen and (max-width: 820px) {
+    .selfieTwo {
+      height: 30vh;
+    } 
   }
 `;
 

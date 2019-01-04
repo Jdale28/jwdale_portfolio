@@ -7,6 +7,7 @@ const IntroContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 100vh;
+  opacity: 0.85;
   font-size: 2rem;
   background: url("https://media.giphy.com/media/OK5LK5zLFfdm/giphy.gif")
     no-repeat center center;
