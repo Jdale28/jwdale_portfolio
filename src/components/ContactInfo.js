@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import pdf from "../files/Jordan Dale-Resume.pdf";
+import pdf from "../files/Jordan Dale - Resume 2019.pdf";
 
 const ContactContainer = styled.div`
   display: flex;
