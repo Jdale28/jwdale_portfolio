@@ -56,7 +56,7 @@ const AboutFlex = styled.div`
       margin-left: 20vw;
       height: 20vh;
       width: 50vw;
-      background-image: url("https://i.imgur.com/d9fquU0.jpg");
+      background-image: url("https://i.imgur.com/fODAmUz.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
     }
