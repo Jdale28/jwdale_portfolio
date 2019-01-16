@@ -13,12 +13,12 @@ import styled from "styled-components";
 import ContactInfo from "./components/ContactInfo";
 
 const Global = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Poppins');
+  @import url('https://fonts.googleapis.com/css?family=PT+Sans|Raleway');
 
   body {
     margin: 0;
     padding: 0;
-    font-family: 'montserrat';
+    font-family: 'PT Sans';
   }
 `;
 
@@ -31,7 +31,7 @@ const NavBarStyles = styled.div`
   height: 6vh;
   font-size: 2rem;
   background-color: grey;
-  font-family: "montserat";
+  font-family: "Raleway";
   text-transform: uppercase;
   z-index: 2;
   a {
