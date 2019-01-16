@@ -37,7 +37,7 @@ const ContactContainer = styled.div`
     margin-left: 5vw;
   }
       .contactMethod {
-        font-family: "calibri";
+        font-family: "PT Sans";
         font-size: 1.25rem;
         margin-top: 3vh;
         img {
@@ -53,7 +53,7 @@ const ContactContainer = styled.div`
         }
       }
       h1 {
-        font-family: Helvetica, sans-serif;
+        font-family: "Raleway";
         font-size: 2.5rem;
         @media screen and (max-width: 820px) {
           font-size: 1rem;
@@ -68,7 +68,7 @@ const ContactContainer = styled.div`
   }
       }
       .tagline {
-        font-family: "calibri";
+        font-family: "PT Sans";
         font-size: 1rem;
         @media screen and (max-width: 820px) {
           font-size: 0.75rem;
@@ -140,7 +140,7 @@ class ContactInfo extends Component {
                 width="36"
                 height="36"
               />{" "}
-              <a href={pdf}>Click for my Resume</a>
+              <a href={pdf}>My Resume</a>
             </div>
           </div>
         </div>
