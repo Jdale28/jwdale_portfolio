@@ -7,7 +7,7 @@ const ProjectFourContainer = styled.div`
   width: 100%;
   height: 100vh;
   font-size: 2rem;
-  background-color: black;
+  background-color: #6B6570;
   color: white;
   background-image: url("https://i.imgur.com/0qjzdH8.png");
   background-size: 50%;
@@ -74,16 +74,16 @@ const Button = styled.button`
   width: 6vw;
   height: 3vh;
   border-radius: 9px;
-  border: rgba(14, 151, 255, 1) solid 1px;
+  border: #6B6570 solid 1px;
   font-weight: bold;
-  background-color: rgba(14, 151, 255, 1);
+  background-color: #6B6570;
   color: rgba(255, 255, 255, 1);
-  :hover {
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(14, 151, 255, 1);
-  }
   a {
     text-decoration: none;
+    color: white;
+    :hover {
+      color: #ACE894;
+    }
   }
   @media screen and (max-width: 820px) {
     width: 25vw;

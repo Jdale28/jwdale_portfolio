@@ -7,8 +7,8 @@ const ProjectTwoContainer = styled.div`
   width: 100%;
   height: 100vh;
   font-size: 2rem;
-  background-color: white;
-  color: black;
+  background-color: #ACE894;
+  color: #4A314D;
   background-image: url("https://i.imgur.com/dgWfxpC.png");
   background-size: 50%;
   background-repeat: no-repeat;
@@ -73,16 +73,16 @@ const Button = styled.button`
   width: 6vw;
   height: 3vh;
   border-radius: 9px;
-  border: rgba(14, 151, 255, 1) solid 1px;
+  border: #ACE894 solid 1px;
   font-weight: bold;
-  background-color: rgba(14, 151, 255, 1);
+  background-color: #ACE894;
   color: rgba(255, 255, 255, 1);
-  :hover {
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(14, 151, 255, 1);
-  }
   a {
     text-decoration: none;
+    color: #4A314D;
+    :hover {
+      color: white;
+    }
   }
   @media screen and (max-width: 820px) {
     width: 25vw;

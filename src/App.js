@@ -30,7 +30,7 @@ const NavBarStyles = styled.div`
   width: 100%;
   height: 6vh;
   font-size: 2rem;
-  background-color: grey;
+  background-color: #1A090D;
   font-family: "Raleway";
   text-transform: uppercase;
   z-index: 2;
@@ -39,7 +39,7 @@ const NavBarStyles = styled.div`
     padding-left: 2vw;
     color: white;
     &:hover {
-      color: rgb(0, 0, 0, 0.4);
+      color: #6B6570;
     }
   }
   .left {

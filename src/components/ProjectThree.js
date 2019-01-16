@@ -7,8 +7,8 @@ const ProjectThreeContainer = styled.div`
   width: 100%;
   height: 100vh;
   font-size: 2rem;
-  background-color: grey;
-  color: white;
+  background-color: #A8BA9A;
+  color: #1A090D;
   background-image: url("https://i.imgur.com/5p14agU.png");
   background-size: 50%;
   background-repeat: no-repeat;
@@ -75,16 +75,16 @@ const Button = styled.button`
   width: 6vw;
   height: 3vh;
   border-radius: 9px;
-  border: rgba(14, 151, 255, 1) solid 1px;
   font-weight: bold;
-  background-color: rgba(14, 151, 255, 1);
-  color: rgba(255, 255, 255, 1);
-  :hover {
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(14, 151, 255, 1);
-  }
+  background-color: #A8BA9A;
+  border: #A8BA9A solid 1px;
+  color: #1A090D;
   a {
     text-decoration: none;
+    color: #1A090D;
+    :hover {
+      color: white;
+    }
   }
   @media screen and (max-width: 820px) {
     width: 25vw;
