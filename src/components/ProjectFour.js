@@ -35,7 +35,7 @@ const DescriptionFlex = styled.div`
   h6 {
     margin: 0;
     margin-bottom: 1vh;
-    font-family: "Raleway"
+    font-family: "Raleway";
   }
   p {
     font-size: 16px;
