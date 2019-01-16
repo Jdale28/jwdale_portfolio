@@ -18,6 +18,7 @@ const IntroContainer = styled.div`
     opacity: 1;
     text-transform: uppercase;
     letter-spacing: 0.25rem;
+    font-family: "Raleway"
   }
   .cursor {
     position: absolute;
