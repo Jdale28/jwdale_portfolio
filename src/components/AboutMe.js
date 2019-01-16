@@ -39,6 +39,7 @@ const AboutFlex = styled.div`
   }
   h1 {
     margin-bottom: 2vh;
+    font-family: "Raleway"
   }
   @media screen and (max-width: 820px) {
     display: flex;
