@@ -38,7 +38,7 @@ const DescriptionFlex = styled.div`
     font-family: "Raleway";
   }
   p {
-    font-size: 16px;
+    font-size: 18px;
     width: 40vw;
     margin: 1vh 0;
     a {
@@ -108,11 +108,11 @@ class ProjectFour extends Component {
     return (
       <ProjectFourContainer>
         <DescriptionFlex>
-          <h3>Jonny On It</h3>
+          <h3>Client: Jonny On It</h3>
           <div className="projectImg">
           <img src="https://i.imgur.com/0qjzdH8.png" alt="Jonny On It" />
           </div>
-          <h6>Find the home service you need in a flash</h6>
+          <h6>Objective: Find the home service you need in a flash</h6>
           <p>
             Collaboration effort with User Experience students for our client
             Christian Ries, CEO of Jonny On It.

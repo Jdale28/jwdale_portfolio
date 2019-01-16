@@ -131,7 +131,7 @@ class ContactInfo extends Component {
                 width="32"
                 height="32"
               />{" "}
-              jordan.dale2@gmail.com
+              <a href="mailto:jordan.dale2@gmail.com">jordan.dale2@gmail.com</a>
             </div>
             <div className="contactMethod">
               <img

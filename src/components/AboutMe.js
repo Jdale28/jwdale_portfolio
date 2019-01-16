@@ -77,7 +77,7 @@ class AboutMe extends Component {
         <AboutFlex>
           <h1>About Me</h1>
           <div className="selfieTwo" />
-          <p>I'm a full stack web developer based in Atlanta.</p>
+          <p>My name is Jordan Dale. I'm a full stack web developer based in Atlanta.</p>
           <p>
             I recently finished 500+ hours of intense, deadline-driven training
             through General Assembly's Web Developer Immersive course.
@@ -87,11 +87,14 @@ class AboutMe extends Component {
             trustworthy demeanor to team environments that’s coupled with the
             data-driven, analytical mind of solo projects.
           </p>
-          <p>An eye for design and detail.</p>
-          <p>
-            Eager to grow, learn, and constantly refining techniques and adding
+          <p>My language specialities include:
+          <p> ReactJS, Node.js, HTML5, CSS3, JavaScript, MongoDB/Mongoose, Django, Python, and more. </p>
+          <p> Currently expanding my knowledge of Java and AngularJS.</p>
+          </p><p>
+            I'm eager to grow, learn, and constantly refining techniques and adding
             more to my repertoire.
           </p>
+          <p>I am currently looking for full time positions or opportunities for collaboration and additional practice.</p>
         </AboutFlex>
       </AboutMeContainer>
     );

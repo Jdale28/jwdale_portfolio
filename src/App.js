@@ -54,7 +54,7 @@ const NavBarStyles = styled.div`
     justify-content: space-around;
   }
   @media screen and (max-width: 820px) {
-    font-size: 1rem;
+    font-size: 0.75rem;
     width: 100%;
   } 
 `;
@@ -68,7 +68,7 @@ class App extends Component {
           <Global />
           <NavBarStyles>
             <div className="left">
-              <a href="#sectTop"> Top </a>
+              <a href="#about"> About </a>
               <a href="#projects"> Projects </a>
               <a href="#contact"> Contact </a>
             </div>
@@ -77,11 +77,12 @@ class App extends Component {
               <a href="https://www.linkedin.com/in/jordan-w-dale/">LinkedIn</a>
             </div>
           </NavBarStyles>
-          <ScrollableAnchor id={"sectTop"}>
-            <Intro />
+          <Intro />
+
+          <ScrollableAnchor id={"about"}>
+          <AboutMe />
           </ScrollableAnchor>
 
-          <AboutMe />
 
           <ScrollableAnchor id={"projects"}>
             <ProjectFour />
