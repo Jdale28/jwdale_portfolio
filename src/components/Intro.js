@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
+// Working annotations for Intro.js
 const IntroContainer = styled.div`
   display: flex;
   justify-content: center;
