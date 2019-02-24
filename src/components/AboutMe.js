@@ -25,7 +25,7 @@ const AboutMeContainer = styled.div`
     }
   }
   @media screen and (max-width: 820px) {
-    height: 85vh;
+    height: 100vh;
   }
 `;
 
@@ -39,7 +39,7 @@ const AboutFlex = styled.div`
   }
   h1 {
     margin-bottom: 2vh;
-    font-family: "Raleway"
+    font-family: "Raleway";
   }
   @media screen and (max-width: 820px) {
     display: flex;
@@ -65,9 +65,11 @@ const AboutFlex = styled.div`
   @media screen and (max-width: 820px) {
     .selfieTwo {
       height: 30vh;
-    } 
+    }
   }
 `;
+
+
 
 class AboutMe extends Component {
   render() {
@@ -77,7 +79,10 @@ class AboutMe extends Component {
         <AboutFlex>
           <h1>About Me</h1>
           <div className="selfieTwo" />
-          <p>My name is Jordan Dale. I'm a full stack web developer based in Atlanta.</p>
+          <p>
+            My name is Jordan Dale. I'm a full stack web developer based in
+            Atlanta.
+          </p>
           <p>
             I recently finished 500+ hours of intense, deadline-driven training
             through General Assembly's Web Developer Immersive course.
@@ -87,14 +92,23 @@ class AboutMe extends Component {
             trustworthy demeanor to team environments that’s coupled with the
             data-driven, analytical mind of solo projects.
           </p>
-          <p>My language specialities include:
-          <p> ReactJS, Node.js, HTML5, CSS3, JavaScript, MongoDB/Mongoose, Django, Python, and more. </p>
-          <p> Currently expanding my knowledge of Java and AngularJS.</p>
-          </p><p>
-            I'm eager to grow, learn, and constantly refining techniques and adding
-            more to my repertoire.
+          <p>
+            My language specialities include:
+            <p>
+              {" "}
+              ReactJS, Node.js, HTML5, CSS3, JavaScript, MongoDB/Mongoose,
+              Django, Python, and more.{" "}
+            </p>
+            <p> Currently expanding my knowledge of Java and AngularJS.</p>
           </p>
-          <p>I am currently looking for full time positions or opportunities for collaboration and additional practice.</p>
+          <p>
+            I'm eager to grow, learn, and constantly refining techniques and
+            adding more to my repertoire.
+          </p>
+          <p>
+            I am currently looking for full time positions or opportunities for
+            collaboration and additional practice.
+          </p>
         </AboutFlex>
       </AboutMeContainer>
     );
