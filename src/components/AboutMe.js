@@ -25,7 +25,10 @@ const AboutMeContainer = styled.div`
     }
   }
   @media screen and (max-width: 820px) {
-    height: 100vh;
+    height: 105vh;
+  }
+  @media screen and (max-width: 670px) {
+    height: 115vh;
   }
 `;
 
