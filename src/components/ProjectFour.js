@@ -114,7 +114,7 @@ class ProjectFour extends Component {
           </div>
           <h6>Objective: Find the home service you need in a flash</h6>
           <p>
-            Collaboration effort with User Experience students for our client
+            Prototype collaboration effort with User Experience students for our client
             Christian Ries, CEO of Jonny On It.
           </p>
           <p>
